@@ -9,7 +9,7 @@ require('dotenv').config();
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
-const rest = new REST({ version: '9' }).setToken("MTA1MTMzMTA5Mjk5MDQwMjYyNA.G1bLQG.-r1brFYETLqRwB1pyjB1IZ5j2o_MG1zSNAewCY");
+const rest = new REST({ version: '9' }).setToken("BOT_TOKEN");
 
 client.once('ready', async () => {
     console.log('Bot is ready');
@@ -68,7 +68,7 @@ client.once('ready', async () => {
             description: 'Learn how to use setprofilepic command',
         },
 
-        };
+    ];
 
     try {
         await rest.put(
@@ -216,5 +216,5 @@ client.on('interactionCreate', async interaction => {
           });
 
 
-client.login("MTA1MTMzMTA5Mjk5MDQwMjYyNA.G1bLQG.-r1brFYETLqRwB1pyjB1IZ5j2o_MG1zSNAewCY");
+client.login("BOT_TOKEN");
 //Made by Felosi @2024
