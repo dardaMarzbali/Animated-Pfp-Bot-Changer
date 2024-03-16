@@ -1,7 +1,7 @@
 # Felosi Animated Pfp Bot Changer
 Create a Bot That Changes Bot Profile Photos to Gifs!
 
-Replit: https://replit.com/@FelosiDev/Animated-Pfp-Bot-Changer
+Discord: soon...
 
 ## 📝 | Tutorial
 
@@ -10,7 +10,7 @@ Replit: https://replit.com/@FelosiDev/Animated-Pfp-Bot-Changer
 A Code written in Node.js to create a Animated Pfp Bot Changer.
 
 1. Create a bot on [Dev Discord](https://discord.com/developers/applications)
-2. The [index.js](https://replit.com/@FelosiDev/Animated-Pfp-Bot-Changer#index.js) is the main file.
+2. The [index.js](https://github.com/FelosiDev/Animated-Pfp-Bot-Changer/blob/main/index.js) is the main file.
 3. Put your bot token in `secrets`
 4. Run the code
 
